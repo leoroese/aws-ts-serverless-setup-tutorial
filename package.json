@@ -1,0 +1,45 @@
+{
+  "name": "aws-ts-serverless",
+  "version": "1.0.0",
+  "description": "AWS Serverless setup with Typescript Functions",
+  "main": "index.js",
+  "repository": "https://github.com/leoroese/blog-tube",
+  "author": "Leonardo Roese",
+  "license": "MIT",
+  "scripts": {
+    "dev": "sls offline -s dev",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.80",
+    "@types/dotenv-safe": "^8.1.2",
+    "@types/jest": "^26.0.24",
+    "@types/node": "^16.4.1",
+    "@types/serverless": "^1.78.32",
+    "@typescript-eslint/eslint-plugin": "^4.28.4",
+    "@typescript-eslint/parser": "^4.28.4",
+    "eslint": "^7.31.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-prettier": "^3.4.0",
+    "jest": "^27.0.6",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.3.2",
+    "serverless": "^2.52.1",
+    "serverless-offline": "^7.0.0",
+    "serverless-plugin-typescript": "^1.1.9",
+    "ts-jest": "^27.0.4",
+    "ts-node": "^10.1.0",
+    "tsconfig-paths": "^3.10.1",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "aws-lambda": "^1.0.6",
+    "cross-env": "^7.0.3",
+    "dotenv-safe": "^8.2.0"
+  }
+}
